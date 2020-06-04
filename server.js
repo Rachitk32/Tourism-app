@@ -27,6 +27,7 @@ app.get('/homepage',function(req,res)
 {
     res.sendFile(__dirname + '/sources/html/travelpage.html');
 })
+
 //Search get request
 app.get('/search',function(req,res)
 {
