@@ -15,6 +15,8 @@
         uname:{type:String, required:true, unique:true},
         pass:{type:String, required:true},
         email:{type:String,requierd:true},
+        feedbacks:[{feed:String}],
+        
         //array of objects
        // tlist:{lname:String,lvalues:[]}//object which has an array
       })
