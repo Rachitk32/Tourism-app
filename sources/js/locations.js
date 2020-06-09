@@ -2,6 +2,7 @@ function locations(app) {
 
     //GET LOCATION
     app.post('/location', (req, res) => {
+        //middleware is used here
      // console.log("recieved request" + req.body); 
       var location = req.body.location;
         
